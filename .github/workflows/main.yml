@@ -46,6 +46,5 @@ jobs:
             # On Cygwin, replace executable symlinks with hardlinks
             hardlinks: 0 
       - name: Meng.Compile
-        run:
-            cd MengJun
-            gcc *.c
+        run: 
+            cd MengJun && gcc *.c
