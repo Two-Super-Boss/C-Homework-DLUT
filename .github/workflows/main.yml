@@ -47,4 +47,4 @@ jobs:
             hardlinks: 0 
       - name: Meng.Compile
         run: 
-            cd MengJun && gcc *.c
+            cd MengJun && gcc -c *.c
