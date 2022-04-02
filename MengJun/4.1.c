@@ -36,6 +36,7 @@ int main()
 	if (a >= 'A' && a <= 'Z')
 	{
 		putchar(a + 32);
+	}
 	else
 	{
 		putchar(a - 32);
