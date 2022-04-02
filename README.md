@@ -1,7 +1,7 @@
 # C-Homework-DLUT
 记录C语言的上机作业（麻垮）
 
-[![Build status (GitHub)](https://img.shields.io/github/workflow/status/Two-Super-Boss/C-Homework-DLUT/Compile-CI/master?label=GitHub%20Action&logo=github&cacheSeconds=600)](https://github.com/Two-Super-Boss/C-Homework-DLUT/actions)
+[![Build status (GitHub)](https://img.shields.io/github/workflow/status/Two-Super-Boss/C-Homework-DLUT/Compile-CI/master?label=Compile&logo=github&cacheSeconds=600)](https://github.com/Two-Super-Boss/C-Homework-DLUT/actions)
 
 ## 请自行寻找需要的内容
 - 以大写英文字母开头的是上机作业
