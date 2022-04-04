@@ -2,6 +2,7 @@
 记录C语言的上机作业（麻垮）
 
 [![Build status (GitHub)](https://img.shields.io/github/workflow/status/Two-Super-Boss/C-Homework-DLUT/Compile-CI/master?label=Compile&logo=github&cacheSeconds=600)](https://github.com/Two-Super-Boss/C-Homework-DLUT/actions)
+[![CodeFactor](https://www.codefactor.io/repository/github/two-super-boss/c-homework-dlut/badge)](https://www.codefactor.io/repository/github/two-super-boss/c-homework-dlut)
 [![Github last commit date](https://img.shields.io/github/last-commit/Two-Super-Boss/C-Homework-DLUT.svg?label=Updated&logo=github&cacheSeconds=600)](https://github.com/Two-Super-Boss/C-Homework-DLUT/commits)
 [![License](https://img.shields.io/github/license/Two-Super-Boss/C-Homework-DLUT.svg?label=License&logo=github&cacheSeconds=2592000)](https://github.com/Two-Super-Boss/C-Homework-DLUT/blob/master/LICENSE)
 
@@ -10,4 +11,4 @@
 - 以数字开头的是在线编程
 > 其实能上github的基本都不需要看这玩意 :dog:
 ## 注意
-```.sln```和```.vcxproj```文件中不包含任何源文件，仅用于Intellisense
+```.sln```和```.vcxproj```文件中不包含任何源文件，仅用于Intellisense自动补全
