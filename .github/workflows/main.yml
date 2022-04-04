@@ -44,7 +44,7 @@ jobs:
             # Set up cc/gcc/c++/g++ executables
             cc: 1
             # On Cygwin, replace executable symlinks with hardlinks
-            hardlinks: 0 
+            hardlinks: 0
       - name: Meng.Compile
         run: |
             cd MengJun
