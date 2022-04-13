@@ -6,12 +6,13 @@
 //#define _CRT_SECURE_NO_WARNINGS
 
 #include <stdio.h>
+#define N 5
 int main()
 {
 	int i, j, k;
-	for (i = 1; i <= 5; i++)
+	for (i = 1; i <= N; i++)
 	{
-		for (j = 5 - i; j > 0; j--)
+		for (j = N - i; j > 0; j--)
 			printf(" ");
 		for (k = 0; k < i; k++)
 			printf("*");
