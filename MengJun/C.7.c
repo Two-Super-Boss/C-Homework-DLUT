@@ -10,9 +10,10 @@ int main()
 {
 	float score[3][5], temp[5];
 	float sum = 0;
-	for (int i = 0; i < 3; i++)
+	int i, j, k;
+	for (i = 0; i < 3; i++)
 	{
-		for (int j = 0; j < 4; j++)
+		for (j = 0; j < 4; j++)
 		{
 			scanf("%f", &score[i][j]);
 			sum += score[i][j];
@@ -20,13 +21,13 @@ int main()
 		score[i][4] = sum / 4;
 		sum = 0;
 	}
-	for (int i = 3; i >= 0; i--)
+	for (i = 3; i >= 0; i--)
 	{
-		for (int j = 0; j < i; j++)
+		for (j = 0; j < i; j++)
 		{
 			if (score[j][4] < score[j + 1][4])
 			{
-				for (int k = 0; k < 5; k++)
+				for (k = 0; k < 5; k++)
 				{
 					temp[k] = score[j][k];
 					score[j][k] = score[j + 1][k];
@@ -35,13 +36,11 @@ int main()
 			}
 		}
 	}
-	for (int i = 0; i < 3; i++)
+	for (i = 0; i < 3; i++)
 	{
-		for (int j = 0; j < 5; j++)
-			printf("%.2f ", score[i][j]);
+		for (j = 0; j < 5; j++)
+			printf("%6.2f", score[i][j]);
 		printf("\n");
 	}
 	return 0;
 }
-
-//ÕâÌâÕÕÑùãÂ±Æ

@@ -20,9 +20,9 @@ int main()
 {
 	int a[N];
 	int choice = 0;
-	int temp;
+	int temp, i, j, k;
 	printf("请输入数：\n");
-	for (int i = 0; i < N; i++)
+	for (i = 0; i < N; i++)
 		scanf("%d", &a[i]);
 	printf("*********************************************\n");
 	printf("       请选择排序方法：\n");
@@ -34,10 +34,10 @@ int main()
 	switch (choice)
 	{
 	case 1:
-		for (int j = 0; j < N; j++)
+		for (j = 0; j < N; j++)
 		{
 			int min = j;
-			for (int k = j + 1; k < N; k++)
+			for (k = j + 1; k < N; k++)
 				if (a[k] < a[min])
 					min = k;
 			temp = a[j];
@@ -46,9 +46,9 @@ int main()
 		}
 		break;
 	case 2:
-		for (int j = N - 1; j >= 0; j--)
+		for (j = N - 1; j >= 0; j--)
 		{
-			for (int k = 0; k < j; k++)
+			for (k = 0; k < j; k++)
 			{
 				if (a[k] > a[k + 1])
 				{
@@ -61,13 +61,8 @@ int main()
 		break;
 	case 3:
 		break;
-	default:
-		printf("输入错误");
-		break;
 	}
-	for (int i = 0; i < N; i++)
-		printf("%d\n", a[i]);
+	for (i = 0; i < N; i++)
+		printf("%3d", a[i]);
 	return 0;
 }
-
-//这题也有点懵逼

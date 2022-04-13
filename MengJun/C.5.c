@@ -6,14 +6,20 @@
 //#define _CRT_SECURE_NO_WARNINGS
 
 #include <stdio.h>
+#define N 13
 int main()
 {
 	int a[13];
-	for (int i = 12; i >= 0; i--)
+	int i, j, temp;
+	for (i = 0; i < N; i++)
 		scanf("%d", &a[i]);
-	for (int j = 0; j < 13; j++)
-		printf("%d", a[j]);
+	for (i = 0, j = N - 1; i < j; i++, j--)
+	{
+		temp = a[i];
+		a[i] = a[j];
+		a[j] = temp;
+	}
+	for (i = 0; i < N; i++)
+		printf("%3d", a[i]);
 	return 0;
 }
-
-//我他妈没看明白
