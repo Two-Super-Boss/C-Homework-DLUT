@@ -9,10 +9,9 @@
 int main()
 {
 	int num = 0, character = 0, other = 0;
-	char ch = 0;
-	while (ch != '#')
+	char ch;
+	while ((ch = getchar()) != '#')
 	{
-		ch = getchar();
 		if (ch >= '0' && ch <= '9')
 		{
 			num++;
