@@ -29,8 +29,8 @@ int main()
 {
 	int i=0, j=0;
 	char a[5], b[5];
-	scanf("%s", &a);
-	scanf("%s", &b);
+	scanf("%s", a);
+	scanf("%s", b);
 	while (a[i] != '\0')
 		i++;
 	while (b[j] != '\0')
