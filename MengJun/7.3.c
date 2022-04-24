@@ -38,14 +38,11 @@ int main()
 	{
 		scanf("%d", &a[i]);
 	}
-	for (int j = 0; j <= 5; j++)
+	for (int k = 0; k <= 5; k++)
 	{
-		for (int k = 0; k <= 5; k++)
+		if (a[max] < a[k])
 		{
-			if (a[max] < a[k])
-			{
-				max = k;
-			}
+			max = k;
 		}
 	}
 	temp = a[max];
