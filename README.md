@@ -4,7 +4,7 @@
 [![Build status (GitHub)](https://img.shields.io/github/workflow/status/Two-Super-Boss/C-Homework-DLUT/Compile-CI/master?label=Compile&logo=github&cacheSeconds=600)](https://github.com/Two-Super-Boss/C-Homework-DLUT/actions)
 [![CodeFactor](https://www.codefactor.io/repository/github/two-super-boss/c-homework-dlut/badge)](https://www.codefactor.io/repository/github/two-super-boss/c-homework-dlut)
 [![Github last commit date](https://img.shields.io/github/last-commit/Two-Super-Boss/C-Homework-DLUT.svg?label=Updated&logo=github&cacheSeconds=600)](https://github.com/Two-Super-Boss/C-Homework-DLUT/commits)
-[![License](https://img.shields.io/github/license/Two-Super-Boss/C-Homework-DLUT.svg?label=License&logo=github&cacheSeconds=2592000)](https://github.com/Two-Super-Boss/C-Homework-DLUT/blob/master/LICENSE)
+[![License](https://img.shields.io/github/license/Two-Super-Boss/C-Homework-DLUT.svg?label=License&logo=github)](https://github.com/Two-Super-Boss/C-Homework-DLUT/blob/master/LICENSE)
 
 ![GitHub top language](https://img.shields.io/github/languages/top/Two-Super-Boss/C-Homework-DLUT)
 
