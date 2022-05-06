@@ -23,12 +23,12 @@
 
 #include <stdio.h>
 
-double pow(double x, int n)
+double p(double x, int n)
 {
 	if (n == 1)
 		return x;
 	else
-		return x * pow(x, n-1);
+		return x * p(x, n-1);
 }
 
 int main()
@@ -36,6 +36,6 @@ int main()
 	double x;
 	int n;
 	scanf("%lf%d", &x, &n);
-	printf("%f", pow(x, n));
+	printf("%f", p(x, n));
 	return 0;
 }
