@@ -26,8 +26,13 @@
 //#define _CRT_SECURE_NO_WARNINGS
 
 #include <stdio.h>
-
 int main()
 {
+	float score[][4] = { {60,70,80,90},{56,89,67,88},{34,78,90,66} };
+	float* s = score;
+	int num, i;
+	scanf("%d", &num);
+	for (i = 0; i < 4; i++)
+		printf("%8.2f", *(s + num * 4 + i));
 	return 0;
 }

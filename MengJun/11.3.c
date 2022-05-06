@@ -22,8 +22,19 @@ max=35,min=-16
 //#define _CRT_SECURE_NO_WARNINGS
 
 #include <stdio.h>
-
 int main()
 {
+	int array[10], * max, * min, * temp;
+	int i;
+	for (i = 0; i < 10; i++)
+		scanf("%d", &array[i]);
+	for (temp = array, max = array, min = array; temp < array + 10; temp++)
+	{
+		if (*temp > *max)
+			max = temp;
+		if (*temp < *min)
+			min = temp;
+	}
+	printf("max=%d,min=%d", *max, *min);
 	return 0;
 }
