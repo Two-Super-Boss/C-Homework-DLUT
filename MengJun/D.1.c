@@ -24,6 +24,7 @@ int main()
 	printf("请输入数：\n");
 	for (i = 0; i < N; i++)
 		scanf("%d", &a[i]);
+	int* p = a;
 	printf("*********************************************\n");
 	printf("       请选择排序方法：\n");
 	printf("       1--选择排序法\n");
@@ -36,13 +37,13 @@ int main()
 	case 1:
 		for (j = 0; j < N; j++)
 		{
-			int min = j;
+			int* min = p+j;
 			for (k = j + 1; k < N; k++)
-				if (a[k] < a[min])
-					min = k;
-			temp = a[j];
-			a[j] = a[min];
-			a[min] = temp;
+				if (*(p+k) < *min)
+					min = p+k;
+			temp = *(p + j);
+			*(p + j) = *min;
+			*min = temp;
 		}
 		break;
 	case 2:
@@ -50,11 +51,11 @@ int main()
 		{
 			for (k = 0; k < j; k++)
 			{
-				if (a[k] > a[k + 1])
+				if (*(p+k) > *(p+k+1))
 				{
-					temp = a[k];
-					a[k] = a[k + 1];
-					a[k + 1] = temp;
+					temp = *(p + k);
+					*(p + k) = *(p + k + 1);
+					*(p + k + 1) = temp;
 				}
 			}
 		}
@@ -63,6 +64,6 @@ int main()
 		break;
 	}
 	for (i = 0; i < N; i++)
-		printf("%3d", a[i]);
+		printf("%3d", *(p + i));
 	return 0;
 }
