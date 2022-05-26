@@ -1,13 +1,13 @@
 /*
-    ï¿½Â²Û£ï¿½ï¿½ï¿½ï¿½ï¿½Îªï¿½ï¿½ï¿½ï¿½Ã´ï¿½ï¿½
-     ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¾ï¿½ï¿½233
+    ÍÂ²Û£º´úÂëÎªºÎÕâÃ´³¤
+     ´ð £º¶¼ÓÃÀ´Êä³öÌáÊ¾ÁË233
 */
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #define NAME 20
 
-/*ï¿½ç»°ï¿½ï¿½ï¿½á¹¹ï¿½ï¿½*/
+/*µç»°±¡½á¹¹Ìå*/
 typedef struct book{
     char name[NAME];
     char address[50];
@@ -26,12 +26,12 @@ int main(int argc, char const *argv[])
     p = create();
     print(p);
     search(p);
-    free(p);//ï¿½Í·ï¿½Ò»ï¿½Â¿Õ¼ï¿½
+    free(p);//ÊÍ·ÅÒ»ÏÂ¿Õ¼ä
     
     return 0;
 }
 
-/*ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½*/
+/*½¨Á¢Á´±í*/
 Book *create(){
     Book *current, *node, *head=NULL;
     int i;
@@ -58,7 +58,7 @@ Book *create(){
 
     return head;
 }
-/*ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½*/
+/*±éÀúÊä³ö¶øÒÑ*/
 void print(Book *p){
     printf("*****************************");
     printf("Output");
@@ -71,10 +71,9 @@ void print(Book *p){
         printf("Address: ");
         puts(p->address);
         printf("Phone: %d\n", p->phone);
-        //p = p->next;
     }
 }
-/*ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½*/
+/*±éÀú²éÕÒ*/
 void search(Book *p){
     char str[NAME];
 
