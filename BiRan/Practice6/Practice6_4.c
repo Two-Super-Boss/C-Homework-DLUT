@@ -1,13 +1,13 @@
 /*
-    ÍÂ²Û£º´úÂëÎªºÎÕâÃ´³¤
-     ´ð £º¶¼ÓÃÀ´Êä³öÌáÊ¾ÁË233
+    ï¿½Â²Û£ï¿½ï¿½ï¿½ï¿½ï¿½Îªï¿½ï¿½ï¿½ï¿½Ã´ï¿½ï¿½
+     ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¾ï¿½ï¿½233
 */
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #define NAME 20
 
-/*µç»°±¡½á¹¹Ìå*/
+/*ï¿½ç»°ï¿½ï¿½ï¿½á¹¹ï¿½ï¿½*/
 typedef struct book{
     char name[NAME];
     char address[50];
@@ -26,12 +26,12 @@ int main(int argc, char const *argv[])
     p = create();
     print(p);
     search(p);
-    free(p);//ÊÍ·ÅÒ»ÏÂ¿Õ¼ä
+    free(p);//ï¿½Í·ï¿½Ò»ï¿½Â¿Õ¼ï¿½
     
     return 0;
 }
 
-/*½¨Á¢Á´±í*/
+/*ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½*/
 Book *create(){
     Book *current, *node, *head=NULL;
     int i;
@@ -58,23 +58,23 @@ Book *create(){
 
     return head;
 }
-/*±éÀúÊä³ö¶øÒÑ*/
+/*ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½*/
 void print(Book *p){
     printf("*****************************");
     printf("Output");
     printf("*****************************\n");
     while(p->next != NULL){
-        //p = p->next;
+        p = p->next;
         printf("Name:");
         puts(p->name);
         //printf("%s\n", p->name);
         printf("Address: ");
         puts(p->address);
         printf("Phone: %d\n", p->phone);
-        p = p->next;
+        //p = p->next;
     }
 }
-/*±éÀú²éÕÒ*/
+/*ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½*/
 void search(Book *p){
     char str[NAME];
 
