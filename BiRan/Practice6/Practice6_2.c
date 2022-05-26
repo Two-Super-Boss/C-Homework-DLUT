@@ -1,3 +1,9 @@
+/*
+    这题我也没太懂老师意思
+    是按自己的想法来的
+    参考性应该为0
+*/
+
 #include <stdio.h>
 
 void decrement(int *a);
