@@ -1,5 +1,5 @@
 # 必读( **别抄！！！**)
-![GitHub top language](https://img.shields.io/github/languages/top/Two-Super-Boss/C-Homework-DLUT/tree/master/BiRan)
+![GitHub top language](https://img.shields.io/github/languages/top/Two-Super-Boss/C-Homework-DLUT)
 ## 首先
 ***
 我是本着能跑就行，赶紧写完的原则写的（因为那是没想到要给你们分享）
