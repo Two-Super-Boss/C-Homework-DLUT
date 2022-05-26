@@ -1,5 +1,5 @@
 # 必读( **别抄！！！**)
-![GitHub top language](https://github.com/Two-Super-Boss/C-Homework-DLUT/tree/master/BiRan)
+![GitHub top language](https://img.shields.io/github/languages/top/Two-Super-Boss/C-Homework-DLUT/tree/master/BiRan)
 ## 首先
 ***
 我是本着能跑就行，赶紧写完的原则写的（因为那是没想到要给你们分享）
@@ -13,12 +13,12 @@
 
 ## 注意
 ***
-有些你们可能看不懂的比如int main()括号里那一堆，你们不用写出来，忽视就好
+有些你们可能看不懂的比如```int main()```括号里那一堆，你们不用写出来，忽视就好
 
 
 ## 最后
 ***
-'''**别抄!!!**'''，
+**别抄!!!**，
 真的，抄代码老师一眼就能看出来，（也不要自己改改变量名就交了，也没用）
 看懂了自己写看不懂就问或者开摆也行，
-'''**别抄!!!**'''
+**别抄!!!**
