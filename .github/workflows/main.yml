@@ -23,4 +23,9 @@ jobs:
       - name: Bi.Compile
         run: |
             cd BiRan
-            gcc -c *.c
+            cd Practice1 && gcc -c *.c && cd ..
+            cd Practice2 && gcc -c *.c && cd ..
+            cd Practice3 && gcc -c *.c && cd ..
+            cd Practice4 && gcc -c *.c && cd ..
+            cd Practice5 && gcc -c *.c && cd ..
+            cd Practice6 && gcc -c *.c && cd ..
